@@ -21,7 +21,7 @@
 | 노영진 | [@YoungjinNoh](https://github.com/YoungjinNoh)
 | 안승연 | [@xloyeon](https://github.com/xloyeon)
 | 오수연 | [@otndus](https://github.com/otndus)
-| 최보현 | 
+| 최보현 | [@githyuniiee](https://github.com/githyuniiee)
 
 
 
