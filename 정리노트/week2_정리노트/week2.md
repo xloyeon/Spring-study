@@ -1,5 +1,5 @@
 #  Week2 정리노트  
-<hr/>  
+<hr>  
 
 ## Spring Bean 등록 방법(@Configuration, @Component)
 <br>
