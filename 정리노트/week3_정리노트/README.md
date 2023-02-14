@@ -22,6 +22,7 @@ https://code-lab1.tistory.com/211
 # 그래서 스프링 MVC의 핵심은? MVC패턴과 FrontController패턴
 ### MVC패턴
 애플리케이션을 Model, View,  Controller 세 가지 역할로 구분하여 개발하는 방법론
+
 장점
 - 비즈니스 로직과 UI로직을 분리하여 유지보수를 독립적으로 수행가능
 - Model과 View가 다른 컴포넌트들에 종속되지 않아 애플리케이션의 확장성, 유연성에 유리함
