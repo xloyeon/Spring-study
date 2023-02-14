@@ -32,6 +32,6 @@ https://cocoon1787.tistory.com/733
 ### FrontController 패턴
 
 장점
-- 공통 코드 처리가 가능
+- 공통 코드 처리가 가능 (MVC 패턴만을 이용했을 때의 문제점이였음.)
 - Front Controller 외 다른 Controller에서 Servlet 사용하지 않아도 됨
 ![image](https://user-images.githubusercontent.com/25169200/218739858-2eb6f3df-17ca-4e78-9e6b-749eeb6c7b32.png)
