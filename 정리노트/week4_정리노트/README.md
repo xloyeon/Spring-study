@@ -18,6 +18,8 @@
 
 
 * DispatcherServlet의 코드 변경 없이, 원하는 기능을 변경하거나 확장할 수 있다는 장점
+<br></br>
+
 
 > 핸들러 매핑과 어댑터 
 
@@ -35,7 +37,10 @@
 
 가장 우선 순위가 높은 핸들러 매핑과 핸들러 어댑터는 _RequestMappingHandlerMapping, ReuquestMappingHandlerAdapter_이다. 실무에서는 거의 이 방법을 사용_
 
+<br></br>
+
 >  뷰 리졸버
+
 <br></br>
 
 
@@ -46,6 +51,7 @@
 
 * InternalResourceView는 JSP처럼 forward()를 호출해서 처리할 수 있는 경우에만 사용
 JSP를 제외한 나머지 뷰 템플릿들은 forward() 과정 없이 바로 렌더링 됨
+<br></br>
 
 
 >  프로젝트 생성 시 JAR VS WAR
@@ -68,6 +74,7 @@ JSP를 제외한 나머지 뷰 템플릿들은 forward() 과정 없이 바로 �
 
 
 #### ----> JSP를 사용하지 않기에 내장 톰켓 기능에 최적화하여 사용할 때 JAR사용
+<br></br>
 
 > logging
 <br></br>
@@ -85,9 +92,10 @@ LogTestController
 * 로그 레벨 : TRACE > DEBUG > INFO > WARN > ERROR
 * 개발 서버는 debug 출력, 운영 서버는 info 출력
 * 로그를 사용 시 시스템 아웃 콘솔에만 출력되는 것이 아니라, 파일이나 네트워크 등 로그를 별도의 위치에 남길 수 있음
+<br></br>
 
 > 클라이언트에서 서버로 요청 데이터를 전달할 때의 3가지 방법
-> <br></br>
+<br></br>
 
 
 1. Get - 쿼리 파라미터
@@ -125,6 +133,7 @@ HTTP 요청 파라미터
 
 **요청 파라미터를 조회하는 기능 : @RequestParam, @ModelAttribute
 **HTTP메시지 바디를 직접 조회하는 기능 : @RequestBody**
+<br></br>
 
 > HTTP 응답
 <br></br>
@@ -135,6 +144,7 @@ HTTP 요청 파라미터
 
 2. 뷰 템플릿 사용
 뷰 템플릿을 거쳐서 HTML이 생성, 뷰가 응답을 만들어 전달
+<br></br>
 
 > 요청 매핑 핸들러 어뎁터 구조
 <br></br>
@@ -186,6 +196,7 @@ view 전달 방법
 2. 타임리프는 html5를 완벽하게 지원한다. 반면 jsp는 스프링 3.1 버전 전까지 html5를 완벽하게 지원하지 못한다.
 
 참고 https://abcdefgh123123.tistory.com/480
+<br></br>
 <br></br>
 
 >  상품 수정 시 Redirect 사용 이유
