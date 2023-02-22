@@ -82,8 +82,11 @@ JSP를 제외한 나머지 뷰 템플릿들은 forward() 과정 없이 바로 �
 
 * 스프링 부트 라이브러리를 사용하면 스프링 부트 로깅 라이브러리가 함께 포함됨
 * 기본으로 SLF4J, Logback 로깅 라이브러리를 사용
+<br></br>
 
 LogTestController
+<br></br>
+
 ![](https://velog.velcdn.com/images/bony9728/post/4c00f748-41a1-4e69-b010-28e5cd343baf/image.png)
 
 * @Controller는 바환 값이 String이면 뷰 이름으로 인식 -> 뷰를 찾고 뷰가 랜더링
