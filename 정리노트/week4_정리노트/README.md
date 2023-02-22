@@ -1,5 +1,6 @@
 
 > * 스프링 MVC 전체 구조
+
 <br></br>
 
 ![](https://velog.velcdn.com/images/bony9728/post/4f3c0a2c-9fd7-46cf-b841-83163a3d653b/image.png)
@@ -19,7 +20,8 @@
 * DispatcherServlet의 코드 변경 없이, 원하는 기능을 변경하거나 확장할 수 있다는 장점
 
 > 핸들러 매핑과 어댑터 
-> <br></br>
+
+<br></br>
 
 
 * HandlerMapping 우선 순위
@@ -34,7 +36,7 @@
 가장 우선 순위가 높은 핸들러 매핑과 핸들러 어댑터는 _RequestMappingHandlerMapping, ReuquestMappingHandlerAdapter_이다. 실무에서는 거의 이 방법을 사용_
 
 >  뷰 리졸버
->  <br></br>
+<br></br>
 
 
 * 스프링 부트가 자동 등록하는 뷰리졸버 우선순위(아래의 것보다 더 있음)
@@ -68,7 +70,7 @@ JSP를 제외한 나머지 뷰 템플릿들은 forward() 과정 없이 바로 �
 #### ----> JSP를 사용하지 않기에 내장 톰켓 기능에 최적화하여 사용할 때 JAR사용
 
 > logging
-> <br></br>
+<br></br>
 
 
 * 스프링 부트 라이브러리를 사용하면 스프링 부트 로깅 라이브러리가 함께 포함됨
