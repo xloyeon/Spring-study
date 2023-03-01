@@ -330,7 +330,7 @@
   - `rejectValue()`, `reject()`는 내부에서 `MessageCodesResolver`를 사용   
   - `MessageCodesResolver`를 통해 생성된 순서대로 오류 코드를 보관함   
   - 생성된 메시지를 순서대로 찾아서 활용 가능함   
-  - 범용성 있는 Error의 경우 덜 구체적으로, 특별한 경우 구체적으로 작성해 관리할 수 있음   \
+  - 범용성 있는 Error의 경우 덜 구체적으로, 특별한 경우 구체적으로 작성해 관리할 수 있음   
    
 
 
