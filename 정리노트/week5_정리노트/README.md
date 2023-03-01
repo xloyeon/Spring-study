@@ -345,7 +345,8 @@
    
 - WebDataBinder   
   - 스프링의 파라미터 바인딩 역할 및 검증기능 포함   
-  - 스프링의 Validator 인터페이스를 사용해 검증기를 만들면 스프링의 추가적인 도움을 받을 수 있음   
+  - 스프링의 Validator 인터페이스를 사용해 검증기를 만들면 스프링의 추가적인 도움을 받을 수 있음 
+  - 적용하기 위해서는 `@ModelAttribute` 앞에 `@Validated` 애노테이션을 추가해야 함
    
    
 - `@Validated`   
@@ -374,6 +375,7 @@
   - `@NotNull` : null을 허용하지 않음   
   - `@Range(min=1000, max = 1000000)` : 범위 안의 값만 허용함   
   - `@Max(9999)` : 최대 9999까지만 허용   
+  - [더 많은 검증 애노테이션](https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/#validator-defineconstraints-spec)
 
    
 <br>   
@@ -413,6 +415,7 @@
 - `@ScriptAssert()`   
   - 특정 필드가 아닌 해당 오브젝트 관련 오류를 처리할 때 사용   
   - 제약이 많고 복잡해 권장하지 않음   
+  - [JAVA 11에 종속적임](https://jaimemin.tistory.com/1883)
   - 오브젝트 오류 관련 부분만 직접 자바 코드로 작성하는 것을 권장함   
    
    
@@ -452,6 +455,11 @@
   - 따라서 `@RequestBody`는 `HttpMessageConverter`단계에서 JSON 데이터를 객체로 변경하지 못하면, 이후 단계가 모두 진행되지 않고 예외가 발생함
    
    
+<br>     
+   
+> Bean Validation에 대한 더 자세한 설명   
+
+- [Spring-Boot Bean-Validation 제대로 알고 쓰자](https://kapentaz.github.io/spring/Spring-Boo-Bean-Validation-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%95%8C%EA%B3%A0-%EC%93%B0%EC%9E%90/#)
 
    
 
